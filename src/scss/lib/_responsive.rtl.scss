@@ -1,0 +1,148 @@
+
+    @media (max-width: 1390px) {
+
+    }
+    @media (max-width: 1230px) {
+
+    }
+    @media (max-width: 1198px) {
+
+    }
+    @media (max-width: 1080px) {
+
+    }
+    @media (max-width: 1000px) {
+        .activities-section{
+            .activities-section-title{
+                h2{
+                    //text-align: center;
+                }
+                .section-search-filter{
+                    justify-content: center !important;
+                }
+            }
+            .activities-list{
+                .current-activities{
+                    .owl-stage-outer{
+                        .owl-stage{
+                            .owl-item{
+                                .activities-list-item{
+                                    margin-top: 0px;
+                                    &.activities-list-item-data{
+                                        height: 700px;
+                                        opacity: 1;
+                                        .activities-img{
+                                            height: 60%;
+                                        }
+                                    }
+                                }
+                                &.active{
+                                    &.center{
+                                        .activities-list-item{
+                                            height: 600px;
+                                            margin-top: 0;
+                                            &.activities-list-item-data{
+                                                height: 700px;
+                                                .activities-img{
+                                                    height: 60%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+    }
+    @media (max-width: 985px) {
+
+    }
+    @media (max-width: 900px) {
+        .top-slider{
+            &::after{
+                width: 400px;
+                height: 400px;
+                //left: -100px;
+                //bottom: -50px;
+            }
+        }
+
+        footer{
+            &.border-footer{
+                &::after{
+                    display: none;
+                }
+                &::before{
+                    display: none;
+                }
+            }
+        }
+
+    }
+    @media (max-width: 767px) {
+        .top-slider{
+            &::after{
+                display: none;
+            }
+            .top-slider-list{
+                .owl-carousel{
+                    .top-slider-item{
+                        .top-slider-item-content{
+                            h1{
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                    .owl-dots{
+                        button{
+                            span{
+                                width: 50px;
+                                background-color: transparent;
+                                border: 1px solid #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        header{
+            .logo{
+                //height: 100px;
+            }
+        }
+
+        .photo-gallery{
+            .gallery-img{
+                height: 250px;
+            }
+        }
+        .activities-skeleton{
+            display: none;
+            &.activities-skeleton-center{
+                display: block;
+            }
+        }
+        .seasons-skeleton{
+            display: none;
+            &.seasons-skeleton-center{
+                display: block;
+            }
+        }
+    }
+    @media (max-width: 760px) {
+
+    }
+    @media (max-width: 650px) {
+
+    }
+    @media (max-width: 568px) {
+
+    }
+    @media (max-width: 425px) {
+
+    }

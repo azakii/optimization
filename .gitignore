@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+
+# Webpack
+# dist/
+.cache/
+
+# Dependency directories
+/.pnp/
+.pnp.js
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+package-lock.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.log
+*.log*
+*.sqlite
+*.sqlite3
+*.log.*
+*.log-*
+*.ejs
+*.pug
+*.htm
+*.nunj
+*.mustache
+*.hbs
+*.handlebars
+*.tmpl
+*.ejs
+*.svelte
+*.twig
+*.blade.php
+*.razor
+*.feature
+*.story
+*.spec

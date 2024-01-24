@@ -1,0 +1,100 @@
+body{
+    direction: ltr;
+}
+
+.activities-section {
+    .events-filter{
+        #eventsFilterSearch{
+            background-position: 93% center;
+        }
+    }
+    .section-search-filter {
+        .section-search {
+            input{
+                padding: 5px 5px 5px 50px;
+            }
+            img{
+                left: 15px;
+                right: auto;
+            }
+        }
+    }
+}
+
+footer {
+    button{
+        direction: rtl;
+    }
+}
+[type=email], [type=number], [type=tel], [type=url], [type=date]{
+    direction: ltr;
+}
+
+.main-menu{
+    .close-menu{
+        left: auto;
+        right: 80px;
+    }
+}
+
+.activities-skeleton{
+    .activities-title-skeleton, .activities-data-skeleton, .activities-time-skeleton{
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+}
+.go-top {
+    right: 30px;
+    left: auto;
+}
+.left-site-menu{
+    margin-left: -345px;
+    margin-right:auto;
+    right: auto;
+    left: 0;
+    border-radius: 0 30px 30px 0;
+    @media (max-width: 575px) {
+        margin-left: -310px;
+    }
+    &.active{
+        margin-left: 0px;
+        margin-right:auto;
+    }
+    .left-site-body {
+        .body-item-list {
+            ul {
+                li {
+                    padding-left: 30px;
+                    padding-right: 0px;
+                    border-left: 3px solid transparent;
+                    border-right: 0;
+                    &.active, &:hover{
+                        border-left: 3px solid #fff;
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.filter-activities-section {
+    .filter-form {
+        .filter-form-input {
+            img{
+                left: auto;
+                right: 20px;
+            }
+        }
+        .filter-form-select {
+            .select2-container--default {
+                .select2-selection--single {
+                    .select2-selection__rendered{
+                        padding-left: 16px;
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

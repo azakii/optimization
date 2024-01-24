@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NeoSansArabicRegular';
+    src: url('./fonts/NeoSansArabicRegular.eot');
+    src: url('./fonts/NeoSansArabicRegular.eot') format('embedded-opentype'),
+        url('./fonts/NeoSansArabicRegular.woff2') format('woff2'),
+        url('./fonts/NeoSansArabicRegular.woff') format('woff'),
+        url('./fonts/NeoSansArabicRegular.ttf') format('truetype'),
+        url('./fonts/NeoSansArabicRegular.svg#NeoSansArabicRegular') format('svg');
+}

@@ -1,0 +1,70 @@
+@media (max-width: 1000px) {
+  .activities-section .activities-section-title .section-search-filter {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item .activities-list-item {
+    margin-top: 0px;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item .activities-list-item.activities-list-item-data {
+    height: 700px;
+    opacity: 1;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item .activities-list-item.activities-list-item-data .activities-img {
+    height: 60%;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item.active.center .activities-list-item {
+    height: 600px;
+    margin-top: 0;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item.active.center .activities-list-item.activities-list-item-data {
+    height: 700px;
+  }
+  .activities-section .activities-list .current-activities .owl-stage-outer .owl-stage .owl-item.active.center .activities-list-item.activities-list-item-data .activities-img {
+    height: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-slider::after {
+    width: 400px;
+    height: 400px;
+  }
+  footer.border-footer::after {
+    display: none;
+  }
+  footer.border-footer::before {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-slider::after {
+    display: none;
+  }
+  .top-slider .top-slider-list .owl-carousel .top-slider-item .top-slider-item-content h1 {
+    font-size: 30px;
+  }
+  .top-slider .top-slider-list .owl-carousel .owl-dots button span {
+    width: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+  }
+  .photo-gallery .gallery-img {
+    height: 250px;
+  }
+  .activities-skeleton {
+    display: none;
+  }
+  .activities-skeleton.activities-skeleton-center {
+    display: block;
+  }
+  .seasons-skeleton {
+    display: none;
+  }
+  .seasons-skeleton.seasons-skeleton-center {
+    display: block;
+  }
+}
+/*# sourceMappingURL=responsive.rtl.css.map */

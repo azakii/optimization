@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NeoSansArabicMedium';
+    src: url('./fonts/NeoSansArabicMedium.eot');
+    src: url('./fonts/NeoSansArabicMedium.eot') format('embedded-opentype'),
+        url('./fonts/NeoSansArabicMedium.woff2') format('woff2'),
+        url('./fonts/NeoSansArabicMedium.woff') format('woff'),
+        url('./fonts/NeoSansArabicMedium.ttf') format('truetype'),
+        url('./fonts/NeoSansArabicMedium.svg/#NeoSansArabicMedium') format('svg');
+}
